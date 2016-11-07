@@ -10,6 +10,8 @@ Omogoča pregled vseh že opravljenih opravkov v tekstovnem in grafičnem način
 
 Resnična uporabnost pa se prikaže pri opomnikih. Primerni so recimo obveščanje z emailom ali pa kar SMSom.
 
+Ciljna publika:
+Uporaba je namenjena praktično za vsakogar. Predvsem pa je v pomoč pri bolj obremenjenih(''hitro živečih'') ljudeh, saj nudi samodejno razporejanje opravil.
 
 
 
