@@ -13,6 +13,11 @@ Resnična uporabnost pa se prikaže pri opomnikih. Primerni so recimo obveščan
 Ciljna publika:
 Uporaba je namenjena praktično za vsakogar. Predvsem pa je v pomoč pri bolj obremenjenih(''hitro živečih'') ljudeh, saj nudi samodejno razporejanje opravil.
 
+Naprave:
+Tablice, mobilne naprave, ...
 
+Posebno:
+Izgled, Zajem slike v profilu, opomniki, ...
 
+Povezava do online strani: https://www.sp-todo.tk
 

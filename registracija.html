@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Q & A portal">
+	<meta name="author" content="Klemen Turšič">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link rel="icon" href="pic/favicon.png">
+	<title>ToDo List</title>
+</head>
+<body>
+	<section id="page">
+		<header>
+			<a href="/"><h1>ToDo List</h1></a>
+			<h3>Plan your life</h3>
+			<nav class="clear gmb">
+				<ul>
+					<li>
+						<a href="prijava.html">Prijava</a>
+					</li>
+					<li>
+						<a href="registracija.html">Registracija</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<div class="line"></div>
+		<article id="reg1">
+			<h2>Registracija</h2>
+			<div class="line"></div>
+			<div class="content clear">
+				<div id="forma-registracija">
+				  <form action="registracija.php">
+				   <label for="ime">Ime</label>
+				    <input type="text" id="ime" name="ime" placeholder="Janez" required>
+					<label for="priimek">Priimek</label>
+				    <input type="text" id="priimek" name="priimek" placeholder="Novak" required>
+				    <label for="email">Email</label>
+				    <input type="email" id="email" name="email" placeholder="janez.novak@gmail.com" required>
+				    <label for="geslo">Geslo</label>
+				    <input type="password" id="geslo" name="geslo" pattern="(?=.*\d)(?=.*[A-Za-z]).{6,}" title="Geslo mora biti dolžine 6 ali več znakov ter mora vsebovati najmanj eno številko." required>
+				    <label for="geslo2">Potrdi geslo</label>
+				    <input type="password" id="geslo2" name="geslo2" required>
+				    <input type="submit" value="Registracija">
+				  </form>
+				</div>
+			</div>
+		</article>
+		<footer>
+			<div class="line"></div>
+			<p>Copyright 2016 - Klemen T.</p>
+		</footer>
+	</section>
+</body>
+</html>
