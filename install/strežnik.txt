@@ -1,0 +1,6 @@
+Strežnik za delovanje potrebuje PHP in MYSQL bazo.
+Datoteke aplikacije se samo prekopirajo na root mapo v strežniku.
+Baza se importa z uporabo datoteke "import.sql"
+
+V datoteki "/application/config/database.php" je potrebno nastaviti uporabniško ime, geslo in ime podatkovne baze.
+V "/application/config/config.php" pa se nastavi "db_salt", katero baza uporablja pri enkripciji gesel.
